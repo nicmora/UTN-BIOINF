@@ -1,0 +1,999 @@
+LOCUS       NM_002111              13498 bp    mRNA    linear   PRI 25-SEP-2019
+DEFINITION  Homo sapiens huntingtin (HTT), mRNA.
+ACCESSION   NM_002111
+VERSION     NM_002111.8
+KEYWORDS    RefSeq; RefSeq Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 13498)
+  AUTHORS   Kotler SA, Tugarinov V, Schmidt T, Ceccon A, Libich DS, Ghirlando
+            R, Schwieters CD and Clore GM.
+  TITLE     Probing initial transient oligomerization events facilitating
+            Huntingtin fibril nucleation at atomic resolution by
+            relaxation-based NMR
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 116 (9), 3562-3571 (2019)
+   PUBMED   30808748
+  REMARK    GeneRIF: he structural model, validated by EPR distance
+            measurements, illuminates the role of the htt(NT) domain in the
+            earliest stages of prenucleation and oligomerization, before fibril
+            formation.
+REFERENCE   2  (bases 1 to 13498)
+  AUTHORS   Goold R, Flower M, Moss DH, Medway C, Wood-Kaczmar A, Andre R,
+            Farshim P, Bates GP, Holmans P, Jones L and Tabrizi SJ.
+  TITLE     FAN1 modifies Huntington's disease progression by stabilizing the
+            expanded HTT CAG repeat
+  JOURNAL   Hum. Mol. Genet. 28 (4), 650-661 (2019)
+   PUBMED   30358836
+  REMARK    GeneRIF: We show that FAN1 binds to the expanded HTT CAG repeat DNA
+            and its nuclease activity is not required for protection against
+            CAG repeat expansion. These data shed new mechanistic insights into
+            how the genetic modifiers of Huntington's disease (HD) act to alter
+            disease progression and show that FAN1 affects somatic expansion of
+            the CAG repeat through a nuclease-independent mechanism.
+REFERENCE   3  (bases 1 to 13498)
+  AUTHORS   Irmak D, Fatima A, Gutierrez-Garcia R, Rinschen MM, Wagle P,
+            Altmuller J, Arrigoni L, Hummel B, Klein C, Frese CK, Sawarkar R,
+            Rada-Iglesias A and Vilchez D.
+  TITLE     Mechanism suppressing H3K9 trimethylation in pluripotent stem cells
+            and its demise by polyQ-expanded huntingtin mutations
+  JOURNAL   Hum. Mol. Genet. 27 (23), 4117-4134 (2018)
+   PUBMED   30452683
+  REMARK    GeneRIF: our results indicate ATF7IP as a potential target to
+            correct aberrant H3K9me3 levels induced by mutant HTT.
+REFERENCE   4  (bases 1 to 13498)
+  AUTHORS   Morozova KN, Suldina LA, Malankhanova TB, Grigor'eva EV, Zakian SM,
+            Kiseleva E and Malakhova AA.
+  TITLE     Introducing an expanded CAG tract into the huntingtin gene causes a
+            wide spectrum of ultrastructural defects in cultured human cells
+  JOURNAL   PLoS ONE 13 (10), e0204735 (2018)
+   PUBMED   30332437
+  REMARK    GeneRIF: Electron microscopy showed that deletion of three CAG
+            triplets or an HTT gene knockout had no significant influence on
+            the cell structure. The insertion of 150 CAG repeats led to
+            substantial changes in quantitative and morphological parameters of
+            mitochondria and increased the association of mitochondria with the
+            smooth and rough endoplasmic reticulum while causing accumulation
+            of small autolysosomes in the cytoplasm.
+            Publication Status: Online-Only
+REFERENCE   5  (bases 1 to 13498)
+  AUTHORS   Lee J, Park EH, Couture G, Harvey I, Garneau P and Pelletier J.
+  TITLE     An upstream open reading frame impedes translation of the
+            huntingtin gene
+  JOURNAL   Nucleic Acids Res. 30 (23), 5110-5119 (2002)
+   PUBMED   12466534
+  REMARK    GeneRIF: An upstream open reading frame impedes translation of the
+            huntingtin gene
+REFERENCE   6  (bases 1 to 13498)
+  AUTHORS   Li XJ, Li SH, Sharp AH, Nucifora FC Jr, Schilling G, Lanahan A,
+            Worley P, Snyder SH and Ross CA.
+  TITLE     A huntingtin-associated protein enriched in brain with implications
+            for pathology
+  JOURNAL   Nature 378 (6555), 398-402 (1995)
+   PUBMED   7477378
+REFERENCE   7  (bases 1 to 13498)
+  AUTHORS   Gutekunst CA, Levey AI, Heilman CJ, Whaley WL, Yi H, Nash NR, Rees
+            HD, Madden JJ and Hersch SM.
+  TITLE     Identification and localization of huntingtin in brain and human
+            lymphoblastoid cell lines with anti-fusion protein antibodies
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 92 (19), 8710-8714 (1995)
+   PUBMED   7568002
+REFERENCE   8  (bases 1 to 13498)
+  AUTHORS   Caron,N.S., Wright,G.E.B. and Hayden,M.R.
+  TITLE     Huntington Disease
+  JOURNAL   (in) Adam MP, Ardinger HH, Pagon RA, Wallace SE, Bean LJH, Stephens
+            K and Amemiya A (Eds.);
+            GENEREVIEWS((R));
+            (1993)
+   PUBMED   20301482
+REFERENCE   9  (bases 1 to 13498)
+  AUTHORS   Klein,C., Lohmann,K., Marras,C. and Munchau,A.
+  TITLE     Hereditary Dystonia Overview
+  JOURNAL   (in) Adam MP, Ardinger HH, Pagon RA, Wallace SE, Bean LJH, Stephens
+            K and Amemiya A (Eds.);
+            GENEREVIEWS((R));
+            (1993)
+   PUBMED   20301334
+REFERENCE   10 (bases 1 to 13498)
+  AUTHORS   MacDonald ME, Novelletto A, Lin C, Tagle D, Barnes G, Bates G,
+            Taylor S, Allitto B, Altherr M, Myers R et al.
+  TITLE     The Huntington's disease candidate region exhibits many different
+            haplotypes
+  JOURNAL   Nat. Genet. 1 (2), 99-103 (1992)
+   PUBMED   1302016
+  REMARK    Review article
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from L12392.1, AL390059.10 and
+            BM661887.1.
+            This sequence is a reference standard in the RefSeqGene project.
+            On Jun 3, 2016 this sequence version replaced NM_002111.7.
+            
+            Summary: Huntingtin is a disease gene linked to Huntington's
+            disease, a neurodegenerative disorder characterized by loss of
+            striatal neurons. This is thought to be caused by an expanded,
+            unstable trinucleotide repeat in the huntingtin gene, which
+            translates as a polyglutamine repeat in the protein product. A
+            fairly broad range of trinucleotide repeats (9-35) has been
+            identified in normal controls, and repeat numbers in excess of 40
+            have been described as pathological. The huntingtin locus is large,
+            spanning 180 kb and consisting of 67 exons. The huntingtin gene is
+            widely expressed and is required for normal development. It is
+            expressed as 2 alternatively polyadenylated forms displaying
+            different relative abundance in various fetal and adult tissues.
+            The larger transcript is approximately 13.7 kb and is expressed
+            predominantly in adult and fetal brain whereas the smaller
+            transcript of approximately 10.3 kb is more widely expressed. The
+            genetic defect leading to Huntington's disease may not necessarily
+            eliminate transcription, but may confer a new property on the mRNA
+            or alter the function of the protein. One candidate is the
+            huntingtin-associated protein-1, highly expressed in brain, which
+            has increased affinity for huntingtin protein with expanded
+            polyglutamine repeats. This gene contains an upstream open reading
+            frame in the 5' UTR that inhibits expression of the huntingtin gene
+            product through translational repression. [provided by RefSeq, Jul
+            2016].
+            
+            Sequence Note: This RefSeq was created from transcript sequence
+            data and has been edited to agree with the reference genome except
+            in the CAG repeat region. The reference genome has a repeat region
+            encoding 21 glutamines while the RefSeq has a repeat region (nt
+            197-265) encoding 23. Neither repeat region is associated with
+            Huntington's Disease.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AB016794.1, L12392.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1965299, SAMEA1966682
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            RefSeq Select criteria :: based on single protein-coding transcript
+            regulatory uORF        :: PMID: 12466534
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-7326              L12392.1           171-7496
+            7327-7327           AL390059.10        53735-53735         c
+            7328-9638           L12392.1           7498-9808
+            9639-13210          AL390059.10        27932-31503         c
+            13211-13498         BM661887.1         1-288               c
+FEATURES             Location/Qualifiers
+     source          1..13498
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="4"
+                     /map="4p16.3"
+     gene            1..13498
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /note="huntingtin"
+                     /db_xref="GeneID:3064"
+                     /db_xref="HGNC:HGNC:4851"
+                     /db_xref="MIM:613004"
+     exon            1..414
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    11
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /note="alternative transcription initiation site
+                     (PMID:12466534)."
+     regulatory      21..86
+                     /regulatory_class="other"
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="DESCRIPTION:regulatory uORF[PMID:12466534]"
+                     /note="regulatory uORF; this uORF is predicted to encode a
+                     21 aa peptide (PMID:12466534)"
+     CDS             146..9580
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /note="huntington disease protein"
+                     /codon_start=1
+                     /product="huntingtin"
+                     /protein_id="NP_002102.4"
+                     /db_xref="CCDS:CCDS43206.1"
+                     /db_xref="GeneID:3064"
+                     /db_xref="HGNC:HGNC:4851"
+                     /db_xref="MIM:613004"
+                     /translation="MATLEKLMKAFESLKSFQQQQQQQQQQQQQQQQQQQQQQQPPPP
+                     PPPPPPPQLPQPPPQAQPLLPQPQPPPPPPPPPPGPAVAEEPLHRPKKELSATKKDRV
+                     NHCLTICENIVAQSVRNSPEFQKLLGIAMELFLLCSDDAESDVRMVADECLNKVIKAL
+                     MDSNLPRLQLELYKEIKKNGAPRSLRAALWRFAELAHLVRPQKCRPYLVNLLPCLTRT
+                     SKRPEESVQETLAAAVPKIMASFGNFANDNEIKVLLKAFIANLKSSSPTIRRTAAGSA
+                     VSICQHSRRTQYFYSWLLNVLLGLLVPVEDEHSTLLILGVLLTLRYLVPLLQQQVKDT
+                     SLKGSFGVTRKEMEVSPSAEQLVQVYELTLHHTQHQDHNVVTGALELLQQLFRTPPPE
+                     LLQTLTAVGGIGQLTAAKEESGGRSRSGSIVELIAGGGSSCSPVLSRKQKGKVLLGEE
+                     EALEDDSESRSDVSSSALTASVKDEISGELAASSGVSTPGSAGHDIITEQPRSQHTLQ
+                     ADSVDLASCDLTSSATDGDEEDILSHSSSQVSAVPSDPAMDLNDGTQASSPISDSSQT
+                     TTEGPDSAVTPSDSSEIVLDGTDNQYLGLQIGQPQDEDEEATGILPDEASEAFRNSSM
+                     ALQQAHLLKNMSHCRQPSDSSVDKFVLRDEATEPGDQENKPCRIKGDIGQSTDDDSAP
+                     LVHCVRLLSASFLLTGGKNVLVPDRDVRVSVKALALSCVGAAVALHPESFFSKLYKVP
+                     LDTTEYPEEQYVSDILNYIDHGDPQVRGATAILCGTLICSILSRSRFHVGDWMGTIRT
+                     LTGNTFSLADCIPLLRKTLKDESSVTCKLACTAVRNCVMSLCSSSYSELGLQLIIDVL
+                     TLRNSSYWLVRTELLETLAEIDFRLVSFLEAKAENLHRGAHHYTGLLKLQERVLNNVV
+                     IHLLGDEDPRVRHVAAASLIRLVPKLFYKCDQGQADPVVAVARDQSSVYLKLLMHETQ
+                     PPSHFSVSTITRIYRGYNLLPSITDVTMENNLSRVIAAVSHELITSTTRALTFGCCEA
+                     LCLLSTAFPVCIWSLGWHCGVPPLSASDESRKSCTVGMATMILTLLSSAWFPLDLSAH
+                     QDALILAGNLLAASAPKSLRSSWASEEEANPAATKQEEVWPALGDRALVPMVEQLFSH
+                     LLKVINICAHVLDDVAPGPAIKAALPSLTNPPSLSPIRRKGKEKEPGEQASVPLSPKK
+                     GSEASAASRQSDTSGPVTTSKSSSLGSFYHLPSYLKLHDVLKATHANYKVTLDLQNST
+                     EKFGGFLRSALDVLSQILELATLQDIGKCVEEILGYLKSCFSREPMMATVCVQQLLKT
+                     LFGTNLASQFDGLSSNPSKSQGRAQRLGSSSVRPGLYHYCFMAPYTHFTQALADASLR
+                     NMVQAEQENDTSGWFDVLQKVSTQLKTNLTSVTKNRADKNAIHNHIRLFEPLVIKALK
+                     QYTTTTCVQLQKQVLDLLAQLVQLRVNYCLLDSDQVFIGFVLKQFEYIEVGQFRESEA
+                     IIPNIFFFLVLLSYERYHSKQIIGIPKIIQLCDGIMASGRKAVTHAIPALQPIVHDLF
+                     VLRGTNKADAGKELETQKEVVVSMLLRLIQYHQVLEMFILVLQQCHKENEDKWKRLSR
+                     QIADIILPMLAKQQMHIDSHEALGVLNTLFEILAPSSLRPVDMLLRSMFVTPNTMASV
+                     STVQLWISGILAILRVLISQSTEDIVLSRIQELSFSPYLISCTVINRLRDGDSTSTLE
+                     EHSEGKQIKNLPEETFSRFLLQLVGILLEDIVTKQLKVEMSEQQHTFYCQELGTLLMC
+                     LIHIFKSGMFRRITAAATRLFRSDGCGGSFYTLDSLNLRARSMITTHPALVLLWCQIL
+                     LLVNHTDYRWWAEVQQTPKRHSLSSTKLLSPQMSGEEEDSDLAAKLGMCNREIVRRGA
+                     LILFCDYVCQNLHDSEHLTWLIVNHIQDLISLSHEPPVQDFISAVHRNSAASGLFIQA
+                     IQSRCENLSTPTMLKKTLQCLEGIHLSQSGAVLTLYVDRLLCTPFRVLARMVDILACR
+                     RVEMLLAANLQSSMAQLPMEELNRIQEYLQSSGLAQRHQRLYSLLDRFRLSTMQDSLS
+                     PSPPVSSHPLDGDGHVSLETVSPDKDWYVHLVKSQCWTRSDSALLEGAELVNRIPAED
+                     MNAFMMNSEFNLSLLAPCLSLGMSEISGGQKSALFEAAREVTLARVSGTVQQLPAVHH
+                     VFQPELPAEPAAYWSKLNDLFGDAALYQSLPTLARALAQYLVVVSKLPSHLHLPPEKE
+                     KDIVKFVVATLEALSWHLIHEQIPLSLDLQAGLDCCCLALQLPGLWSVVSSTEFVTHA
+                     CSLIYCVHFILEAVAVQPGEQLLSPERRTNTPKAISEEEEEVDPNTQNPKYITAACEM
+                     VAEMVESLQSVLALGHKRNSGVPAFLTPLLRNIIISLARLPLVNSYTRVPPLVWKLGW
+                     SPKPGGDFGTAFPEIPVEFLQEKEVFKEFIYRINTLGWTSRTQFEETWATLLGVLVTQ
+                     PLVMEQEESPPEEDTERTQINVLAVQAITSLVLSAMTVPVAGNPAVSCLEQQPRNKPL
+                     KALDTRFGRKLSIIRGIVEQEIQAMVSKRENIATHHLYQAWDPVPSLSPATTGALISH
+                     EKLLLQINPERELGSMSYKLGQVSIHSVWLGNSITPLREEEWDEEEEEEADAPAPSSP
+                     PTSPVNSRKHRAGVDIHSCSQFLLELYSRWILPSSSARRTPAILISEVVRSLLVVSDL
+                     FTERNQFELMYVTLTELRRVHPSEDEILAQYLVPATCKAAAVLGMDKAVAEPVSRLLE
+                     STLRSSHLPSRVGALHGVLYVLECDLLDDTAKQLIPVISDYLLSNLKGIAHCVNIHSQ
+                     QHVLVMCATAFYLIENYPLDVGPEFSASIIQMCGVMLSGSEESTPSIIYHCALRGLER
+                     LLLSEQLSRLDAESLVKLSVDRVNVHSPHRAMAALGLMLTCMYTGKEKVSPGRTSDPN
+                     PAAPDSESVIVAMERVSVLFDRIRKGFPCEARVVARILPQFLDDFFPPQDIMNKVIGE
+                     FLSNQQPYPQFMATVVYKVFQTLHSTGQSSMVRDWVMLSLSNFTQRAPVAMATWSLSC
+                     FFVSASTSPWVAAILPHVISRMGKLEQVDVNLFCLVATDFYRHQIEEELDRRAFQSVL
+                     EVVAAPGSPYHRLLTCLRNVHKVTTC"
+     misc_feature    152..184
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     Region: Sufficient for interaction with TPR.
+                     {ECO:0000269|PubMed:15654337}"
+     misc_feature    170..172
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N6-acetyllysine. {ECO:0000269|PubMed:21685499};
+                     propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     acetylation site"
+     misc_feature    197..265
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /note="expansions of the CAG trinucleotide repeat region
+                     are associated with Huntington's Disease; Region: CAG
+                     repeat region"
+     misc_feature    677..679
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N6-acetyllysine. {ECO:0000269|PubMed:21685499};
+                     propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     acetylation site"
+     misc_feature    761..874
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     Region: HEAT 1"
+     misc_feature    851..853
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N6-acetyllysine. {ECO:0000269|PubMed:21685499};
+                     propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     acetylation site"
+     misc_feature    887..1000
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     Region: HEAT 2"
+     misc_feature    1097..1231
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     Region: HEAT 3"
+     misc_feature    1178..1180
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N6-acetyllysine. {ECO:0000269|PubMed:21685499};
+                     propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     acetylation site"
+     misc_feature    1382..1384
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:18669648};
+                     propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     phosphorylation site"
+     misc_feature    1400..1402
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P42859};
+                     propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     phosphorylation site"
+     misc_feature    1406..1408
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P42859};
+                     propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     phosphorylation site"
+     misc_feature    1445..1447
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:19690332,
+                     ECO:0000244|PubMed:24275569}; propagated from
+                     UniProtKB/Swiss-Prot (P42858.2); phosphorylation site"
+     misc_feature    1475..1477
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N6-acetyllysine. {ECO:0000269|PubMed:21685499};
+                     propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     acetylation site"
+     misc_feature    1622..1657
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     Region: Interaction with ZDHHC17.
+                     {ECO:0000269|PubMed:28757145}"
+     misc_feature    1682..1687
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cleavage, by caspase-3.
+                     {ECO:0000269|PubMed:9535906}; propagated from
+                     UniProtKB/Swiss-Prot (P42858.2); cleavage site"
+     misc_feature    1733..1738
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cleavage, by caspase-3. {ECO:0000255}; propagated
+                     from UniProtKB/Swiss-Prot (P42858.2); cleavage site"
+     misc_feature    1799..1804
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cleavage, by caspase-3.
+                     {ECO:0000269|PubMed:29802276}; propagated from
+                     UniProtKB/Swiss-Prot (P42858.2); cleavage site"
+     mat_peptide     1802..1903
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /product="Huntingtin, myristoylated N-terminal fragment"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P42858.2)"
+     misc_feature    1901..1906
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cleavage, by caspase-6.
+                     {ECO:0000269|PubMed:10770929}; propagated from
+                     UniProtKB/Swiss-Prot (P42858.2); cleavage site"
+     misc_feature    1910..1915
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cleavage, by caspase-3. {ECO:0000255}; propagated
+                     from UniProtKB/Swiss-Prot (P42858.2); cleavage site"
+     misc_feature    2069..2071
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:23186163};
+                     propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     phosphorylation site"
+     misc_feature    2078..2080
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:23186163};
+                     propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     phosphorylation site"
+     misc_feature    2555..2668
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     Region: HEAT 4"
+     misc_feature    2855..2971
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     Region: HEAT 5"
+     misc_feature    3686..3688
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by CDK5.
+                     {ECO:0000269|PubMed:17611284}; propagated from
+                     UniProtKB/Swiss-Prot (P42858.2); phosphorylation site"
+     misc_feature    3746..3748
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by CDK5.
+                     {ECO:0000244|PubMed:23186163,
+                     ECO:0000269|PubMed:17611284}; propagated from
+                     UniProtKB/Swiss-Prot (P42858.2); phosphorylation site"
+     misc_feature    5759..5761
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:18669648,
+                     ECO:0000244|PubMed:18691976, ECO:0000244|PubMed:20068231};
+                     propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     phosphorylation site"
+     misc_feature    5771..5773
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:18669648,
+                     ECO:0000244|PubMed:19690332, ECO:0000244|PubMed:20068231,
+                     ECO:0000244|PubMed:23186163}; propagated from
+                     UniProtKB/Swiss-Prot (P42858.2); phosphorylation site"
+     misc_feature    7334..7363
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P42858.2);
+                     Region: Nuclear export signal. {ECO:0000250}"
+     misc_feature    197..265
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /note="expansions of the CAG trinucleotide repeat region
+                     are associated with Huntington's Disease; Region: CAG
+                     repeat region"
+     exon            415..498
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            499..619
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            620..679
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            680..759
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            760..898
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            899..1040
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1041..1219
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1220..1424
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1425..1472
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1473..1553
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1554..1894
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1895..2018
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2019..2137
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2138..2249
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2250..2387
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2388..2546
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2547..2644
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2645..2784
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2785..2848
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2849..2949
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2950..3096
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3097..3217
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3218..3294
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3295..3446
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3447..3649
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3650..3776
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3777..3904
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3905..4015
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4016..4093
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4094..4317
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4318..4396
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4397..4558
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4559..4614
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4615..4763
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4764..4900
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4901..5017
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5018..5140
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5141..5376
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5377..5519
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5520..5727
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5728..5869
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5870..6049
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6050..6226
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6227..6303
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6304..6442
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6443..6565
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6566..6779
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6780..6925
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6926..7103
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7104..7205
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7206..7393
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7394..7520
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7521..7621
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7622..7776
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7777..7916
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7917..7999
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8000..8130
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8131..8260
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8261..8416
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8417..8607
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8608..8722
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8723..8936
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8937..9042
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9043..9205
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9206..9366
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9367..13481
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      13455..13460
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+     polyA_site      13481
+                     /gene="HTT"
+                     /gene_synonym="HD; IT15; LOMARS"
+ORIGIN      
+        1 gctgccggga cgggtccaag atggacggcc gctcaggttc tgcttttacc tgcggcccag
+       61 agccccattc attgccccgg tgctgagcgg cgccgcgagt cggcccgagg cctccgggga
+      121 ctgccgtgcc gggcgggaga ccgccatggc gaccctggaa aagctgatga aggccttcga
+      181 gtccctcaag tccttccagc agcagcagca gcagcagcag cagcagcagc agcagcagca
+      241 gcagcagcag cagcagcagc aacagccgcc accgccgccg ccgccgccgc cgcctcctca
+      301 gcttcctcag ccgccgccgc aggcacagcc gctgctgcct cagccgcagc cgcccccgcc
+      361 gccgcccccg ccgccacccg gcccggctgt ggctgaggag ccgctgcacc gaccaaagaa
+      421 agaactttca gctaccaaga aagaccgtgt gaatcattgt ctgacaatat gtgaaaacat
+      481 agtggcacag tctgtcagaa attctccaga atttcagaaa cttctgggca tcgctatgga
+      541 actttttctg ctgtgcagtg atgacgcaga gtcagatgtc aggatggtgg ctgacgaatg
+      601 cctcaacaaa gttatcaaag ctttgatgga ttctaatctt ccaaggttac agctcgagct
+      661 ctataaggaa attaaaaaga atggtgcccc tcggagtttg cgtgctgccc tgtggaggtt
+      721 tgctgagctg gctcacctgg ttcggcctca gaaatgcagg ccttacctgg tgaaccttct
+      781 gccgtgcctg actcgaacaa gcaagagacc cgaagaatca gtccaggaga ccttggctgc
+      841 agctgttccc aaaattatgg cttcttttgg caattttgca aatgacaatg aaattaaggt
+      901 tttgttaaag gccttcatag cgaacctgaa gtcaagctcc cccaccattc ggcggacagc
+      961 ggctggatca gcagtgagca tctgccagca ctcaagaagg acacaatatt tctatagttg
+     1021 gctactaaat gtgctcttag gcttactcgt tcctgtcgag gatgaacact ccactctgct
+     1081 gattcttggc gtgctgctca ccctgaggta tttggtgccc ttgctgcagc agcaggtcaa
+     1141 ggacacaagc ctgaaaggca gcttcggagt gacaaggaaa gaaatggaag tctctccttc
+     1201 tgcagagcag cttgtccagg tttatgaact gacgttacat catacacagc accaagacca
+     1261 caatgttgtg accggagccc tggagctgtt gcagcagctc ttcagaacgc ctccacccga
+     1321 gcttctgcaa accctgaccg cagtcggggg cattgggcag ctcaccgctg ctaaggagga
+     1381 gtctggtggc cgaagccgta gtgggagtat tgtggaactt atagctggag ggggttcctc
+     1441 atgcagccct gtcctttcaa gaaaacaaaa aggcaaagtg ctcttaggag aagaagaagc
+     1501 cttggaggat gactctgaat cgagatcgga tgtcagcagc tctgccttaa cagcctcagt
+     1561 gaaggatgag atcagtggag agctggctgc ttcttcaggg gtttccactc cagggtcagc
+     1621 aggtcatgac atcatcacag aacagccacg gtcacagcac acactgcagg cggactcagt
+     1681 ggatctggcc agctgtgact tgacaagctc tgccactgat ggggatgagg aggatatctt
+     1741 gagccacagc tccagccagg tcagcgccgt cccatctgac cctgccatgg acctgaatga
+     1801 tgggacccag gcctcgtcgc ccatcagcga cagctcccag accaccaccg aagggcctga
+     1861 ttcagctgtt accccttcag acagttctga aattgtgtta gacggtaccg acaaccagta
+     1921 tttgggcctg cagattggac agccccagga tgaagatgag gaagccacag gtattcttcc
+     1981 tgatgaagcc tcggaggcct tcaggaactc ttccatggcc cttcaacagg cacatttatt
+     2041 gaaaaacatg agtcactgca ggcagccttc tgacagcagt gttgataaat ttgtgttgag
+     2101 agatgaagct actgaaccgg gtgatcaaga aaacaagcct tgccgcatca aaggtgacat
+     2161 tggacagtcc actgatgatg actctgcacc tcttgtccat tgtgtccgcc ttttatctgc
+     2221 ttcgtttttg ctaacagggg gaaaaaatgt gctggttccg gacagggatg tgagggtcag
+     2281 cgtgaaggcc ctggccctca gctgtgtggg agcagctgtg gccctccacc cggaatcttt
+     2341 cttcagcaaa ctctataaag ttcctcttga caccacggaa taccctgagg aacagtatgt
+     2401 ctcagacatc ttgaactaca tcgatcatgg agacccacag gttcgaggag ccactgccat
+     2461 tctctgtggg accctcatct gctccatcct cagcaggtcc cgcttccacg tgggagattg
+     2521 gatgggcacc attagaaccc tcacaggaaa tacattttct ttggcggatt gcattccttt
+     2581 gctgcggaaa acactgaagg atgagtcttc tgttacttgc aagttagctt gtacagctgt
+     2641 gaggaactgt gtcatgagtc tctgcagcag cagctacagt gagttaggac tgcagctgat
+     2701 catcgatgtg ctgactctga ggaacagttc ctattggctg gtgaggacag agcttctgga
+     2761 aacccttgca gagattgact tcaggctggt gagctttttg gaggcaaaag cagaaaactt
+     2821 acacagaggg gctcatcatt atacagggct tttaaaactg caagaacgag tgctcaataa
+     2881 tgttgtcatc catttgcttg gagatgaaga ccccagggtg cgacatgttg ccgcagcatc
+     2941 actaattagg cttgtcccaa agctgtttta taaatgtgac caaggacaag ctgatccagt
+     3001 agtggccgtg gcaagagatc aaagcagtgt ttacctgaaa cttctcatgc atgagacgca
+     3061 gcctccatct catttctccg tcagcacaat aaccagaata tatagaggct ataacctact
+     3121 accaagcata acagacgtca ctatggaaaa taacctttca agagttattg cagcagtttc
+     3181 tcatgaacta atcacatcaa ccaccagagc actcacattt ggatgctgtg aagctttgtg
+     3241 tcttctttcc actgccttcc cagtttgcat ttggagttta ggttggcact gtggagtgcc
+     3301 tccactgagt gcctcagatg agtctaggaa gagctgtacc gttgggatgg ccacaatgat
+     3361 tctgaccctg ctctcgtcag cttggttccc attggatctc tcagcccatc aagatgcttt
+     3421 gattttggcc ggaaacttgc ttgcagccag tgctcccaaa tctctgagaa gttcatgggc
+     3481 ctctgaagaa gaagccaacc cagcagccac caagcaagag gaggtctggc cagccctggg
+     3541 ggaccgggcc ctggtgccca tggtggagca gctcttctct cacctgctga aggtgattaa
+     3601 catttgtgcc cacgtcctgg atgacgtggc tcctggaccc gcaataaagg cagccttgcc
+     3661 ttctctaaca aacccccctt ctctaagtcc catccgacga aaggggaagg agaaagaacc
+     3721 aggagaacaa gcatctgtac cgttgagtcc caagaaaggc agtgaggcca gtgcagcttc
+     3781 tagacaatct gatacctcag gtcctgttac aacaagtaaa tcctcatcac tggggagttt
+     3841 ctatcatctt ccttcatacc tcaaactgca tgatgtcctg aaagctacac acgctaacta
+     3901 caaggtcacg ctggatcttc agaacagcac ggaaaagttt ggagggtttc tccgctcagc
+     3961 cttggatgtt ctttctcaga tactagagct ggccacactg caggacattg ggaagtgtgt
+     4021 tgaagagatc ctaggatacc tgaaatcctg ctttagtcga gaaccaatga tggcaactgt
+     4081 ttgtgttcaa caattgttga agactctctt tggcacaaac ttggcctccc agtttgatgg
+     4141 cttatcttcc aaccccagca agtcacaagg ccgagcacag cgccttggct cctccagtgt
+     4201 gaggccaggc ttgtaccact actgcttcat ggccccgtac acccacttca cccaggccct
+     4261 cgctgacgcc agcctgagga acatggtgca ggcggagcag gagaacgaca cctcgggatg
+     4321 gtttgatgtc ctccagaaag tgtctaccca gttgaagaca aacctcacga gtgtcacaaa
+     4381 gaaccgtgca gataagaatg ctattcataa tcacattcgt ttgtttgaac ctcttgttat
+     4441 aaaagcttta aaacagtaca cgactacaac atgtgtgcag ttacagaagc aggttttaga
+     4501 tttgctggcg cagctggttc agttacgggt taattactgt cttctggatt cagatcaggt
+     4561 gtttattggc tttgtattga aacagtttga atacattgaa gtgggccagt tcagggaatc
+     4621 agaggcaatc attccaaaca tctttttctt cttggtatta ctatcttatg aacgctatca
+     4681 ttcaaaacag atcattggaa ttcctaaaat cattcagctc tgtgatggca tcatggccag
+     4741 tggaaggaag gctgtgacac atgccatacc ggctctgcag cccatagtcc acgacctctt
+     4801 tgtattaaga ggaacaaata aagctgatgc aggaaaagag cttgaaaccc aaaaagaggt
+     4861 ggtggtgtca atgttactga gactcatcca gtaccatcag gtgttggaga tgttcattct
+     4921 tgtcctgcag cagtgccaca aggagaatga agacaagtgg aagcgactgt ctcgacagat
+     4981 agctgacatc atcctcccaa tgttagccaa acagcagatg cacattgact ctcatgaagc
+     5041 ccttggagtg ttaaatacat tatttgagat tttggcccct tcctccctcc gtccggtaga
+     5101 catgctttta cggagtatgt tcgtcactcc aaacacaatg gcgtccgtga gcactgttca
+     5161 actgtggata tcgggaattc tggccatttt gagggttctg atttcccagt caactgaaga
+     5221 tattgttctt tctcgtattc aggagctctc cttctctccg tatttaatct cctgtacagt
+     5281 aattaatagg ttaagagatg gggacagtac ttcaacgcta gaagaacaca gtgaagggaa
+     5341 acaaataaag aatttgccag aagaaacatt ttcaaggttt ctattacaac tggttggtat
+     5401 tcttttagaa gacattgtta caaaacagct gaaggtggaa atgagtgagc agcaacatac
+     5461 tttctattgc caggaactag gcacactgct aatgtgtctg atccacatct tcaagtctgg
+     5521 aatgttccgg agaatcacag cagctgccac taggctgttc cgcagtgatg gctgtggcgg
+     5581 cagtttctac accctggaca gcttgaactt gcgggctcgt tccatgatca ccacccaccc
+     5641 ggccctggtg ctgctctggt gtcagatact gctgcttgtc aaccacaccg actaccgctg
+     5701 gtgggcagaa gtgcagcaga ccccgaaaag acacagtctg tccagcacaa agttacttag
+     5761 tccccagatg tctggagaag aggaggattc tgacttggca gccaaacttg gaatgtgcaa
+     5821 tagagaaata gtacgaagag gggctctcat tctcttctgt gattatgtct gtcagaacct
+     5881 ccatgactcc gagcacttaa cgtggctcat tgtaaatcac attcaagatc tgatcagcct
+     5941 ttcccacgag cctccagtac aggacttcat cagtgccgtt catcggaact ctgctgccag
+     6001 cggcctgttc atccaggcaa ttcagtctcg ttgtgaaaac ctttcaactc caaccatgct
+     6061 gaagaaaact cttcagtgct tggaggggat ccatctcagc cagtcgggag ctgtgctcac
+     6121 gctgtatgtg gacaggcttc tgtgcacccc tttccgtgtg ctggctcgca tggtcgacat
+     6181 ccttgcttgt cgccgggtag aaatgcttct ggctgcaaat ttacagagca gcatggccca
+     6241 gttgccaatg gaagaactca acagaatcca ggaatacctt cagagcagcg ggctcgctca
+     6301 gagacaccaa aggctctatt ccctgctgga caggtttcgt ctctccacca tgcaagactc
+     6361 acttagtccc tctcctccag tctcttccca cccgctggac ggggatgggc acgtgtcact
+     6421 ggaaacagtg agtccggaca aagactggta cgttcatctt gtcaaatccc agtgttggac
+     6481 caggtcagat tctgcactgc tggaaggtgc agagctggtg aatcggattc ctgctgaaga
+     6541 tatgaatgcc ttcatgatga actcggagtt caacctaagc ctgctagctc catgcttaag
+     6601 cctagggatg agtgaaattt ctggtggcca gaagagtgcc ctttttgaag cagcccgtga
+     6661 ggtgactctg gcccgtgtga gcggcaccgt gcagcagctc cctgctgtcc atcatgtctt
+     6721 ccagcccgag ctgcctgcag agccggcggc ctactggagc aagttgaatg atctgtttgg
+     6781 ggatgctgca ctgtatcagt ccctgcccac tctggcccgg gccctggcac agtacctggt
+     6841 ggtggtctcc aaactgccca gtcatttgca ccttcctcct gagaaagaga aggacattgt
+     6901 gaaattcgtg gtggcaaccc ttgaggccct gtcctggcat ttgatccatg agcagatccc
+     6961 gctgagtctg gatctccagg cagggctgga ctgctgctgc ctggccctgc agctgcctgg
+     7021 cctctggagc gtggtctcct ccacagagtt tgtgacccac gcctgctccc tcatctactg
+     7081 tgtgcacttc atcctggagg ccgttgcagt gcagcctgga gagcagcttc ttagtccaga
+     7141 aagaaggaca aataccccaa aagccatcag cgaggaggag gaggaagtag atccaaacac
+     7201 acagaatcct aagtatatca ctgcagcctg tgagatggtg gcagaaatgg tggagtctct
+     7261 gcagtcggtg ttggccttgg gtcataaaag gaatagcggc gtgccggcgt ttctcacgcc
+     7321 attgctaagg aacatcatca tcagcctggc ccgcctgccc cttgtcaaca gctacacacg
+     7381 tgtgccccca ctggtgtgga agcttggatg gtcacccaaa ccgggagggg attttggcac
+     7441 agcattccct gagatccccg tggagttcct ccaggaaaag gaagtcttta aggagttcat
+     7501 ctaccgcatc aacacactag gctggaccag tcgtactcag tttgaagaaa cttgggccac
+     7561 cctccttggt gtcctggtga cgcagcccct cgtgatggag caggaggaga gcccaccaga
+     7621 agaagacaca gagaggaccc agatcaacgt cctggccgtg caggccatca cctcactggt
+     7681 gctcagtgca atgactgtgc ctgtggccgg caacccagct gtaagctgct tggagcagca
+     7741 gccccggaac aagcctctga aagctctcga caccaggttt gggaggaagc tgagcattat
+     7801 cagagggatt gtggagcaag agattcaagc aatggtttca aagagagaga atattgccac
+     7861 ccatcattta tatcaggcat gggatcctgt cccttctctg tctccggcta ctacaggtgc
+     7921 cctcatcagc cacgagaagc tgctgctaca gatcaacccc gagcgggagc tggggagcat
+     7981 gagctacaaa ctcggccagg tgtccataca ctccgtgtgg ctggggaaca gcatcacacc
+     8041 cctgagggag gaggaatggg acgaggaaga ggaggaggag gccgacgccc ctgcaccttc
+     8101 gtcaccaccc acgtctccag tcaactccag gaaacaccgg gctggagttg acatccactc
+     8161 ctgttcgcag tttttgcttg agttgtacag ccgctggatc ctgccgtcca gctcagccag
+     8221 gaggaccccg gccatcctga tcagtgaggt ggtcagatcc cttctagtgg tctcagactt
+     8281 gttcaccgag cgcaaccagt ttgagctgat gtatgtgacg ctgacagaac tgcgaagggt
+     8341 gcacccttca gaagacgaga tcctcgctca gtacctggtg cctgccacct gcaaggcagc
+     8401 tgccgtcctt gggatggaca aggccgtggc ggagcctgtc agccgcctgc tggagagcac
+     8461 gctcaggagc agccacctgc ccagcagggt tggagccctg cacggcgtcc tctatgtgct
+     8521 ggagtgcgac ctgctggacg acactgccaa gcagctcatc ccggtcatca gcgactatct
+     8581 cctctccaac ctgaaaggga tcgcccactg cgtgaacatt cacagccagc agcacgtact
+     8641 ggtcatgtgt gccactgcgt tttacctcat tgagaactat cctctggacg tagggccgga
+     8701 attttcagca tcaataatac agatgtgtgg ggtgatgctg tctggaagtg aggagtccac
+     8761 cccctccatc atttaccact gtgccctcag aggcctggag cgcctcctgc tctctgagca
+     8821 gctctcccgc ctggatgcag aatcgctggt caagctgagt gtggacagag tgaacgtgca
+     8881 cagcccgcac cgggccatgg cggctctggg cctgatgctc acctgcatgt acacaggaaa
+     8941 ggagaaagtc agtccgggta gaacttcaga ccctaatcct gcagcccccg acagcgagtc
+     9001 agtgattgtt gctatggagc gggtatctgt tctttttgat aggatcagga aaggctttcc
+     9061 ttgtgaagcc agagtggtgg ccaggatcct gccccagttt ctagacgact tcttcccacc
+     9121 ccaggacatc atgaacaaag tcatcggaga gtttctgtcc aaccagcagc cataccccca
+     9181 gttcatggcc accgtggtgt ataaggtgtt tcagactctg cacagcaccg ggcagtcgtc
+     9241 catggtccgg gactgggtca tgctgtccct ctccaacttc acgcagaggg ccccggtcgc
+     9301 catggccacg tggagcctct cctgcttctt tgtcagcgcg tccaccagcc cgtgggtcgc
+     9361 ggcgatcctc ccacatgtca tcagcaggat gggcaagctg gagcaggtgg acgtgaacct
+     9421 tttctgcctg gtcgccacag acttctacag acaccagata gaggaggagc tcgaccgcag
+     9481 ggccttccag tctgtgcttg aggtggttgc agccccagga agcccatatc accggctgct
+     9541 gacttgttta cgaaatgtcc acaaggtcac cacctgctga gcgccatggt gggagagact
+     9601 gtgaggcggc agctggggcc ggagcctttg gaagtctgcg cccttgtgcc ctgcctccac
+     9661 cgagccagct tggtccctat gggcttccgc acatgccgcg ggcggccagg caacgtgcgt
+     9721 gtctctgcca tgtggcagaa gtgctctttg tggcagtggc caggcaggga gtgtctgcag
+     9781 tcctggtggg gctgagcctg aggccttcca gaaagcagga gcagctgtgc tgcaccccat
+     9841 gtgggtgacc aggtcctttc tcctgatagt cacctgctgg ttgttgccag gttgcagctg
+     9901 ctcttgcatc tgggccagaa gtcctccctc ctgcaggctg gctgttggcc cctctgctgt
+     9961 cctgcagtag aaggtgccgt gagcaggctt tgggaacact ggcctgggtc tccctggtgg
+    10021 ggtgtgcatg ccacgccccg tgtctggatg cacagatgcc atggcctgtg ctgggccagt
+    10081 ggctgggggt gctagacacc cggcaccatt ctcccttctc tcttttcttc tcaggattta
+    10141 aaatttaatt atatcagtaa agagattaat tttaacgtaa ctctttctat gcccgtgtaa
+    10201 agtatgtgaa tcgcaaggcc tgtgctgcat gcgacagcgt ccggggtggt ggacagggcc
+    10261 cccggccacg ctccctctcc tgtagccact ggcatagccc tcctgagcac ccgctgacat
+    10321 ttccgttgta catgttcctg tttatgcatt cacaaggtga ctgggatgta gagaggcgtt
+    10381 agtgggcagg tggccacagc aggactgagg acaggccccc attatcctag gggtgcgctc
+    10441 acctgcagcc cctcctcctc gggcacagac gactgtcgtt ctccacccac cagtcaggga
+    10501 cagcagcctc cctgtcactc agctgagaag gccagccctc cctggctgtg agcagcctcc
+    10561 actgtgtcca gagacatggg cctcccactc ctgttccttg ctagccctgg ggtggcgtct
+    10621 gcctaggagc tggctggcag gtgttgggac ctgctgctcc atggatgcat gccctaagag
+    10681 tgtcactgag ctgtgttttg tctgagcctc tctcggtcaa cagcaaagct tggtgtcttg
+    10741 gcactgttag tgacagagcc cagcatccct tctgcccccg ttccagctga catcttgcac
+    10801 ggtgacccct tttagtcagg agagtgcaga tctgtgctca tcggagactg ccccacggcc
+    10861 ctgtcagagc cgccactcct atccccaggc caggtccctg gaccagcctc ctgtttgcag
+    10921 gcccagagga gccaagtcat taaaatggaa gtggattctg gatggccggg ctgctgctga
+    10981 tgtaggagct ggatttggga gctctgcttg ccgactggct gtgagacgag gcaggggctc
+    11041 tgcttcctca gccctagagg cgagccaggc aaggttggcg actgtcatgt ggcttggttt
+    11101 ggtcatgccc gtcgatgttt tgggtattga atgtggtaag tggaggaaat gttggaactc
+    11161 tgtgcaggtg ctgccttgag acccccaagc ttccacctgt ccctctccta tgtggcagct
+    11221 ggggagcagc tgagatgtgg acttgtatgc tgcccacata cgtgaggggg agctgaaagg
+    11281 gagcccctcc tctgagcagc ctctgccagg cctgtatgag gcttttccca ccagctccca
+    11341 acagaggcct cccccagcca ggaccacctc gtcctcgtgg cggggcagca ggagcggtag
+    11401 aaaggggtcc gatgtttgag gaggccctta agggaagcta ctgaattata acacgtaaga
+    11461 aaatcaccat tccgtattgg ttgggggctc ctgtttctca tcctagcttt ttcctggaaa
+    11521 gcccgctaga aggtttggga acgaggggaa agttctcaga actgttggct gctccccacc
+    11581 cgcctcccgc ctcccccgca ggttatgtca gcagctctga gacagcagta tcacaggcca
+    11641 gatgttgttc ctggctagat gtttacattt gtaagaaata acactgtgaa tgtaaaacag
+    11701 agccattccc ttggaatgca tatcgctggg ctcaacatag agtttgtctt cctcttgttt
+    11761 acgacgtgat ctaaaccagt ccttagcaag gggctcagaa caccccgctc tggcagtagg
+    11821 tgtcccccac ccccaaagac ctgcctgtgt gctccggaga tgaatatgag ctcattagta
+    11881 aaaatgactt cacccacgca tatacataaa gtatccatgc atgtgcatat agacacatct
+    11941 ataattttac acacacacct ctcaagacgg agatgcatgg cctctaagag tgcccgtgtc
+    12001 ggttcttcct ggaagttgac tttccttaga cccgccaggt caagttagcc gcgtgacgga
+    12061 catccaggcg tgggacgtgg tcagggcagg gctcattcat tgcccactag gatcccactg
+    12121 gcgaagatgg tctccatatc agctctctgc agaagggagg aagactttat catgttccta
+    12181 aaaatctgtg gcaagcaccc atcgtattat ccaaattttg ttgcaaatgt gattaatttg
+    12241 gttgtcaagt tttgggggtg ggctgtgggg agattgcttt tgttttcctg ctggtaatat
+    12301 cgggaaagat tttaatgaaa ccagggtaga attgtttggc aatgcactga agcgtgtttc
+    12361 tttcccaaaa tgtgcctccc ttccgctgcg ggcccagctg agtctatgta ggtgatgttt
+    12421 ccagctgcca agtgctcttt gttactgtcc accctcattt ctgccagcgc atgtgtcctt
+    12481 tcaaggggaa aatgtgaagc tgaaccccct ccagacaccc agaatgtagc atctgagaag
+    12541 gccctgtgcc ctaaaggaca cccctcgccc ccatcttcat ggagggggtc atttcagagc
+    12601 cctcggagcc aatgaacagc tcctcctctt ggagctgaga tgagccccac gtggagctcg
+    12661 ggacggatag tagacagcaa taactcggtg tgtggccgcc tggcaggtgg aacttcctcc
+    12721 cgttgcgggg tggagtgagg ttagttctgt gtgtctggtg ggtggagtca ggcttctctt
+    12781 gctacctgtg agcatccttc ccagcagaca tcctcatcgg gctttgtccc tcccccgctt
+    12841 cctccctctg cggggaggac ccgggaccac agctgctggc cagggtagac ttggagctgt
+    12901 cctccagagg ggtcacgtgt aggagtgaga agaaggaaga tcttgagagc tgctgaggga
+    12961 ccttggagag ctcaggatgg ctcagacgag gacactcgct tgccgggcct gggcctcctg
+    13021 ggaaggaggg agctgctcag aatgccgcat gacaactgaa ggcaacctgg aaggttcagg
+    13081 ggccgctctt cccccatgtg cctgtcacgc tctggtgcag tcaaaggaac gccttcccct
+    13141 cagttgtttc taagagcaga gtctcccgct gcaatctggg tggtaactgc cagccttgga
+    13201 ggatcgtggc caacgtggac ctgcctacgg agggtgggct ctgacccaag tggggcctcc
+    13261 ttgtccaggt ctcactgctt tgcaccgtgg tcagagggac tgtcagctga gcttgagctc
+    13321 ccctggagcc agcagggctg tgatgggcga gtcccggagc cccacccaga cctgaatgct
+    13381 tctgagagca aagggaagga ctgacgagag atgtatattt aattttttaa ctgctgcaaa
+    13441 cattgtacat ccaaattaaa ggaaaaaaat ggaaaccatc aaaaaaaaaa aaaaaaaa
+//
+
