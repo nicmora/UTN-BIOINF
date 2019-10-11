@@ -98,7 +98,7 @@ public class Ejercicio1 {
 	}
 
 	private static File createFileFasta() {
-		File fasta = new File(path_output);
+		File fasta = new File(path_output + "/" + name_output);
 
 		try {
 			fasta.createNewFile();
@@ -117,7 +117,7 @@ public class Ejercicio1 {
 		} catch (Exception e) {
 			LOGGER.info(e.getMessage());
 		}
-		
+
 	}
 
 }
