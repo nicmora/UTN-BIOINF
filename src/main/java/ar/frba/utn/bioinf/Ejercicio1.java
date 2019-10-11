@@ -3,6 +3,7 @@ package ar.frba.utn.bioinf;
 import org.biojava.nbio.core.sequence.DNASequence;
 import org.biojava.nbio.core.sequence.ProteinSequence;
 import org.biojava.nbio.core.sequence.RNASequence;
+import org.biojava.nbio.core.sequence.io.FastaWriterHelper;
 import org.biojava.nbio.core.sequence.io.GenbankReaderHelper;
 import org.biojava.nbio.core.sequence.transcription.Frame;
 
@@ -12,6 +13,7 @@ import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -37,7 +39,7 @@ public class Ejercicio1 {
 //			File file_output = new File(path_output + "/" + name_output);
 			
 			Map<String, DNASequence> dnaSequences = readGenBank(file_input);
-			List<RNASequence> rnaSequences = translatorForORF(dnaSequences);
+			//List<RNASequence> rnaSequences = translatorForORF(dnaSequences);
 			
 			System.out.println("Stop");
 		} catch (Exception e) {
@@ -68,9 +70,13 @@ public class Ejercicio1 {
 		return dnaSequences;
 	}
 
-	private static List<RNASequence> translatorForORF(Map<String, DNASequence> dnaSequences){
+	private static void translatorForORF(Map<String, DNASequence> dnaSequences){
 		LOGGER.info("translatorForORF()");
+		AtomicInteger count = new AtomicInteger(0);
+
 		List<RNASequence> rnaSequences = new LinkedList<>();
+		List<ProteinSequence> proteinSequences = new LinkedList<>();
+
 		// Traduccion a ARN en los seis marcos de lectura posibles
 		dnaSequences.values().stream().forEach(t -> {
 			rnaSequences.add(t.getRNASequence(Frame.ONE));
@@ -79,12 +85,39 @@ public class Ejercicio1 {
 			rnaSequences.add(t.getRNASequence(Frame.REVERSED_ONE));
 			rnaSequences.add(t.getRNASequence(Frame.REVERSED_TWO));
 			rnaSequences.add(t.getRNASequence(Frame.REVERSED_THREE));
+
+			//Realiza la transcription de ARN a aninoacidos para cra rnaSequences
+			rnaSequences.stream().forEach(rna -> proteinSequences.add(rna.getProteinSequence()));
+
+			// add head fiction foreach secuence for can to read
+			proteinSequences.stream().forEach(p -> p.setOriginalHeader(Integer.toString(count.getAndIncrement())));
+
+			File fasta = createFileFasta();
+			writeFileFasta(fasta, proteinSequences);
 		});
-		return rnaSequences;
 	}
 
-	private List<ProteinSequence> getProteinSequence(RNASequence rnaSequence) {
-		return null;
+	private static File createFileFasta() {
+		File fasta = new File(path_output);
+
+		try {
+			fasta.createNewFile();
+		} catch (Exception e){
+			LOGGER.info(e.getMessage());
+			System.exit(0);
+		}
+
+		return fasta;
+	}
+
+	private static void writeFileFasta(File fasta, List<ProteinSequence> proteinSequence) {
+
+		try {
+			FastaWriterHelper.writeProteinSequence(fasta, proteinSequence);
+		} catch (Exception e) {
+			LOGGER.info(e.getMessage());
+		}
+		
 	}
 
 }
