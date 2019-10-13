@@ -33,45 +33,51 @@ public class Ejercicio1 {
 		try {
 			// Define el path del input/output y nombre de los archivos
 			defineFiles(args[0]);
-			
-			// Iniciamos los files
-			File file_input = new File(path_input);
-//			File file_output = new File(path_output + "/" + name_output);
-			
+			File file_input = new File(path_input);			
+
+			// Leemos el archivo en formato genBank
 			Map<String, DNASequence> dnaSequences = readGenBank(file_input);
-			//List<RNASequence> rnaSequences = translatorForORF(dnaSequences);
 			
-			System.out.println("Stop");
+			// Obtenemos una lista de secuencias de proteinas, a partir de los rna
+			List<ProteinSequence> proteinSequences = translatorForORF(dnaSequences);
+			
+			// Creamos el archivo en formato Fasta y guardamos los datos
+			File fasta = createFileFasta();			
+			writeFileFasta(fasta, proteinSequences);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
-			System.out.println("Error: debe ejecutar la aplicacion indicando el path de entrada y salida.");
+			LOGGER.error("Se produjo un error en la ejecución.");
 		}
 	}
 	
 	private static void defineFiles(String path) {
-		path_input = path;
-		String[] aux = path_input.split("/");
-		name_input = aux[aux.length-1];
-		aux = Arrays.copyOf(aux, aux.length-1);
-		path_output = String.join("/", Arrays.asList(aux));
-		name_output = "result_"+name_input+".fasta";
-		return;
+		try {
+			path_input = path;
+			String[] aux = path_input.split("/");
+			name_input = aux[aux.length-1];
+			aux = Arrays.copyOf(aux, aux.length-1);
+			path_output = String.join("/", Arrays.asList(aux));
+			name_output = ("result_"+name_input+".fasta").replace(".gb", "");
+		} catch(Exception e) {
+			e.printStackTrace();
+			LOGGER.error("Error: debe ejecutar la aplicacion indicando el path de entrada y salida.");
+		}
 	}
 
 	private static Map<String, DNASequence> readGenBank(File inputFile){
-		LOGGER.info("readGenBank("+ inputFile.toString() + ")");
+		LOGGER.info("Iniciando lectura del archivo: " + inputFile.toString());
 		Map<String, DNASequence> dnaSequences = new LinkedHashMap<>();
 		try {
-			// Leer el archivo en formato GenBank, devuelve una secuencia de ADN
 			dnaSequences = GenbankReaderHelper.readGenbankDNASequence(inputFile);
 		} catch (Exception e) {
-			LOGGER.error(e.getMessage());
+			e.printStackTrace();
+			LOGGER.error("Error al leer el archivo en formato GenBank");
 		}
 		return dnaSequences;
 	}
 
-	private static void translatorForORF(Map<String, DNASequence> dnaSequences){
-		LOGGER.info("translatorForORF()");
+	private static List<ProteinSequence> translatorForORF(Map<String, DNASequence> dnaSequences){
 		AtomicInteger count = new AtomicInteger(0);
 
 		List<RNASequence> rnaSequences = new LinkedList<>();
@@ -86,24 +92,26 @@ public class Ejercicio1 {
 			rnaSequences.add(t.getRNASequence(Frame.REVERSED_TWO));
 			rnaSequences.add(t.getRNASequence(Frame.REVERSED_THREE));
 
-			//Realiza la transcription de ARN a aninoacidos para cra rnaSequences
+			// Realiza la transcription de ARN a aminoacidos para cada rnaSequences
 			rnaSequences.stream().forEach(rna -> proteinSequences.add(rna.getProteinSequence()));
 
-			// add head fiction foreach secuence for can to read
+			// Se agrega encabezado ficticio por cada secuencia para poder leer
 			proteinSequences.stream().forEach(p -> p.setOriginalHeader(Integer.toString(count.getAndIncrement())));
 
-			File fasta = createFileFasta();
-			writeFileFasta(fasta, proteinSequences);
 		});
+		
+		return proteinSequences;
 	}
 
 	private static File createFileFasta() {
+		LOGGER.info("Creando archivo: " + name_output);
 		File fasta = new File(path_output + "/" + name_output);
 
 		try {
 			fasta.createNewFile();
 		} catch (Exception e){
-			LOGGER.info(e.getMessage());
+			e.printStackTrace();
+			LOGGER.error("Error al crear el archivo en formato Fasta.");
 			System.exit(0);
 		}
 
@@ -111,11 +119,12 @@ public class Ejercicio1 {
 	}
 
 	private static void writeFileFasta(File fasta, List<ProteinSequence> proteinSequence) {
-
+		LOGGER.info("Guardando los datos.");
 		try {
 			FastaWriterHelper.writeProteinSequence(fasta, proteinSequence);
 		} catch (Exception e) {
-			LOGGER.info(e.getMessage());
+			e.printStackTrace();
+			LOGGER.error("Error al guardar los cambios en el archivo Fasta.");
 		}
 
 	}
