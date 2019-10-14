@@ -1,4 +1,4 @@
-package ar.frba.utn.bioinf;
+package ar.edu.utn.frba.sistemas.bioinf;
 
 import java.io.BufferedReader;
 import java.io.File;

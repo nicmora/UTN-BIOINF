@@ -1,4 +1,4 @@
-package ar.frba.utn.bioinf;
+package ar.edu.utn.frba.sistemas.bioinf;
 
 import org.biojava.nbio.core.sequence.DNASequence;
 import org.biojava.nbio.core.sequence.ProteinSequence;
