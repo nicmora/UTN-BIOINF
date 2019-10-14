@@ -42,7 +42,7 @@ public class Ejercicio2a {
 
 			// Nos quedamos con la secuencia correcta
 			LOGGER.info("Obteniendo la secuencia de proteína correcta.");
-			ProteinSequence proteinSequece = secuenciasDeAminoacidos.get(secuenciasDeAminoacidos.keySet().toArray()[0]);
+			ProteinSequence proteinSequece = secuenciasDeAminoacidos.get(secuenciasDeAminoacidos.keySet().toArray()[1]);
 
 			// Obtenemos los resultados del alineamiento del servicio de NCBI Blast
 			InputStream inputStream = callNCBIBlastService(proteinSequece);
