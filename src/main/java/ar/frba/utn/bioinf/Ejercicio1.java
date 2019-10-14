@@ -42,17 +42,21 @@ public class Ejercicio1 {
 			List<ProteinSequence> proteinSequences = translatorForORF(dnaSequences);
 			
 			// Creamos el archivo en formato Fasta y guardamos los datos
-			File fasta = createFileFasta();			
-			writeFileFasta(fasta, proteinSequences);
+			File outputFile = createFileFasta();			
+			writeFileFasta(outputFile, proteinSequences);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
 			LOGGER.error("Se produjo un error en la ejecución.");
+			System.exit(0);
 		}
+		
+		LOGGER.info("Finalizó correctamente.");
 	}
 	
 	private static void defineFiles(String path) {
 		try {
+			LOGGER.info("Definiendo archivos de entrada y salida.");
 			path_input = path;
 			String[] aux = path_input.split("/");
 			name_input = aux[aux.length-1];
@@ -62,6 +66,7 @@ public class Ejercicio1 {
 		} catch(Exception e) {
 			e.printStackTrace();
 			LOGGER.error("Error: debe ejecutar la aplicacion indicando el path de entrada y salida.");
+			System.exit(0);
 		}
 	}
 
@@ -73,11 +78,13 @@ public class Ejercicio1 {
 		} catch (Exception e) {
 			e.printStackTrace();
 			LOGGER.error("Error al leer el archivo en formato GenBank");
+			System.exit(0);
 		}
 		return dnaSequences;
 	}
 
 	private static List<ProteinSequence> translatorForORF(Map<String, DNASequence> dnaSequences){
+		LOGGER.info("Obteniendo secuencia de proteínas de los 6 ORF.");
 		AtomicInteger count = new AtomicInteger(0);
 
 		List<RNASequence> rnaSequences = new LinkedList<>();
@@ -105,26 +112,27 @@ public class Ejercicio1 {
 
 	private static File createFileFasta() {
 		LOGGER.info("Creando archivo: " + name_output);
-		File fasta = new File(path_output + "/" + name_output);
+		File outputFile = new File(path_output + "/" + name_output);
 
 		try {
-			fasta.createNewFile();
+			outputFile.createNewFile();
 		} catch (Exception e){
 			e.printStackTrace();
 			LOGGER.error("Error al crear el archivo en formato Fasta.");
 			System.exit(0);
 		}
 
-		return fasta;
+		return outputFile;
 	}
 
-	private static void writeFileFasta(File fasta, List<ProteinSequence> proteinSequence) {
+	private static void writeFileFasta(File outputFile, List<ProteinSequence> proteinSequence) {
 		LOGGER.info("Guardando los datos.");
 		try {
-			FastaWriterHelper.writeProteinSequence(fasta, proteinSequence);
+			FastaWriterHelper.writeProteinSequence(outputFile, proteinSequence);
 		} catch (Exception e) {
 			e.printStackTrace();
 			LOGGER.error("Error al guardar los cambios en el archivo Fasta.");
+			System.exit(0);
 		}
 
 	}
