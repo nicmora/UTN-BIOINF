@@ -10,6 +10,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 import org.biojava.nbio.core.sequence.ProteinSequence;
+import org.biojava.nbio.core.sequence.compound.AminoAcidCompound;
 import org.biojava.nbio.core.sequence.io.FastaReaderHelper;
 import org.biojava.nbio.core.sequence.io.util.IOUtils;
 import org.biojava.nbio.ws.alignment.qblast.BlastOutputFormatEnum;
@@ -42,10 +43,11 @@ public class Ejercicio2a {
 
 			// Nos quedamos con la secuencia correcta
 			LOGGER.info("Obteniendo la secuencia de proteína correcta.");
-			ProteinSequence proteinSequece = secuenciasDeAminoacidos.get(secuenciasDeAminoacidos.keySet().toArray()[1]);
+//			ProteinSequence proteinSequece = secuenciasDeAminoacidos.get(secuenciasDeAminoacidos.keySet().toArray()[1]);
+			ProteinSequence proteinSequence = selectProtein(secuenciasDeAminoacidos);
 
 			// Obtenemos los resultados del alineamiento del servicio de NCBI Blast
-			InputStream inputStream = callNCBIBlastService(proteinSequece);
+			InputStream inputStream = callNCBIBlastService(proteinSequence);
 
 			// Creamos el archivo de salida y guardamos los datos
 			File outputFile = createBlastFile();
@@ -88,6 +90,24 @@ public class Ejercicio2a {
 		}
 
 		return secuenciasDeAminoacidos;
+	}
+	
+	private static ProteinSequence selectProtein(Map<String, ProteinSequence> secuenciasDeAminoacidos) {
+		ProteinSequence proteinSequence = null;
+		int maxLength = 0;
+		
+		for (Map.Entry<String, ProteinSequence> entry : secuenciasDeAminoacidos.entrySet()) {
+			String proteinSequenceAux = entry.getValue().getSequenceAsString();
+			Character firstProtein = proteinSequenceAux.charAt(0);
+			int length = proteinSequenceAux.indexOf('*');
+			
+			if(firstProtein.equals('M') && length > maxLength) {
+				maxLength = length;
+				proteinSequence = entry.getValue();
+			}
+		}
+		
+		return proteinSequence;
 	}
 
 	private static InputStream callNCBIBlastService(ProteinSequence proteinSequece) {
