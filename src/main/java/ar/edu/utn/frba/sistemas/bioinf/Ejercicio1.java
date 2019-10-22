@@ -62,7 +62,7 @@ public class Ejercicio1 {
 			name_input = aux[aux.length-1];
 			aux = Arrays.copyOf(aux, aux.length-1);
 			path_output = String.join("/", Arrays.asList(aux));
-			name_output = ("result_"+name_input+".fasta").replace(".gb", "");
+			name_output = ("aa"+".fasta");
 		} catch(Exception e) {
 			e.printStackTrace();
 			LOGGER.error("Error: debe ejecutar la aplicacion indicando el path de entrada y salida.");

@@ -70,7 +70,7 @@ public class Ejercicio2a {
 			name_input = aux[aux.length - 1];
 			aux = Arrays.copyOf(aux, aux.length - 1);
 			path_output = String.join("/", Arrays.asList(aux));
-			name_output = ("blast_" + name_input + ".txt").replace(".fasta", "");
+			name_output = ("blast" + ".txt");
 		} catch (Exception e) {
 			e.printStackTrace();
 			LOGGER.error("Error: debe ejecutar la aplicacion indicando el path de entrada y salida.");
