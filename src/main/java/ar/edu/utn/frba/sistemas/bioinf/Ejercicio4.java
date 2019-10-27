@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 import org.apache.commons.lang.StringUtils;
-import org.biojava.nbio.core.sequence.loader.StringProxySequenceReader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,12 +14,12 @@ public class Ejercicio4 {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(Ejercicio4.class);
 
-	private static final String PATH_INPUT = "data/input/";
-	private static final String NAME_INPUT = "input_ej4.blast";
+	private static final String PATH_INPUT = "data/output/";
+	private static final String NAME_INPUT = "output_ej2a.blast";
 
 	public static void main(String[] args) {
-		LOGGER.info("---> Ejercicio 4 <---");
-
+		LOGGER.info("########## Ejercicio 4 ##########");
+		
 		try {
 			File inputFile = new File(PATH_INPUT + NAME_INPUT);
 
@@ -42,14 +41,13 @@ public class Ejercicio4 {
 			
 			blastOutput = fileContents.toString();
 				
-			scanner.close();
-			
+			scanner.close();		
 
 			// Separamos cada hit en un String diferente
 			String[] hits = blastOutput.split("ALIGNMENTS");
 			hits = hits[1].split(">");
 
-			String inputSequenceSeparator = StringUtils.repeat(lineSeparator, 4);
+//			String inputSequenceSeparator = StringUtils.repeat(lineSeparator, 4);
 
 			// Eliminamos lineas en blanco redundantes
 			for (int i = 0; i < hits.length; i++) {

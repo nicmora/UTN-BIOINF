@@ -23,8 +23,8 @@ public class Ejercicio2a {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(Ejercicio2a.class);
 
-	private static final String PATH_INPUT = "data/input/";
-	private static final String NAME_INPUT = "input_ej2a.fasta";
+	private static final String PATH_INPUT = "data/output/";
+	private static final String NAME_INPUT = "output_ej1.fasta";
 	private static final String PATH_OUTPUT = "data/output/";
 	private static final String NAME_OUTPUT = "output_ej2a.blast";
 

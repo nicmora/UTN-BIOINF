@@ -20,11 +20,11 @@ compositionally adjusted substitution matrices", FEBS J.
 272:5101-5109.
 
 
-RID: UZ68J8N601R
+RID: VC0710G8015
 
 
 Database: Non-redundant UniProtKB/SwissProt sequences
-           473,080 sequences; 178,728,640 total letters
+           473,341 sequences; 178,865,978 total letters
 Query= 
 Length=4499
 
@@ -985,7 +985,7 @@ Query  3150  RHQIEEELDRRAFQSVLEVVAAPGSPYHRLLTCLR  3184
 Sbjct  3060  FNKELSKENKQLFKDSFSKLKI--EPYISLLKVIN  3092
 
 
- Score = 67.4 bits (163),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Score = 67.4 bits (163),  Expect = 4e-09, Method: Compositional matrix adjust.
  Identities = 46/164 (28%), Positives = 83/164 (51%), Gaps = 17/164 (10%)
 
 Query  231  RSLRAALWRFAELAHLVRPQKCRPYLVNLLPCLTRT-SKRPEESVQETLAAAVPKIMASF  289
@@ -1034,9 +1034,9 @@ Sbjct  1205  NFKLFEPLIIGSMIEYQTTHSHELKIAILLMLSKLSKFGLDLSLFDKENHFPTYFIEELK  1264
 
 
   Database: Non-redundant UniProtKB/SwissProt sequences
-    Posted date:  Oct 16, 2019  2:50 AM
-  Number of letters in database: 178,728,640
-  Number of sequences in database:  473,080
+    Posted date:  Oct 21, 2019  3:41 AM
+  Number of letters in database: 178,865,978
+  Number of sequences in database:  473,341
 
 Lambda      K        H
    0.325    0.137    0.427 
@@ -1045,21 +1045,21 @@ Lambda      K        H
    0.267   0.0410    0.140 
 Matrix: BLOSUM62
 Gap Penalties: Existence: 11, Extension: 1
-Number of Sequences: 473080
-Number of Hits to DB: 153722870
-Number of extensions: 6663116
-Number of successful extensions: 69253
-Number of sequences better than 100: 858
+Number of Sequences: 473341
+Number of Hits to DB: 153944119
+Number of extensions: 6672879
+Number of successful extensions: 66802
+Number of sequences better than 100: 801
 Number of HSP's better than 100 without gapping: 0
-Number of HSP's gapped: 44955
-Number of HSP's successfully gapped: 3070
+Number of HSP's gapped: 44197
+Number of HSP's successfully gapped: 2826
 Length of query: 4499
-Length of database: 178728640
+Length of database: 178865978
 Length adjustment: 138
 Effective length of query: 4361
-Effective length of database: 113443600
-Effective search space: 494727539600
-Effective search space used: 494727539600
+Effective length of database: 113544920
+Effective search space: 495169396120
+Effective search space used: 495169396120
 T: 11
 A: 40
 X1: 15 (7.0 bits)
