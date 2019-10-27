@@ -16,7 +16,7 @@ public class Ejercicio4 {
 	private static final Logger LOGGER = LoggerFactory.getLogger(Ejercicio4.class);
 
 	private static final String PATH_INPUT = "data/input/";
-	private static final String NAME_INPUT = "input_ej4.txt";
+	private static final String NAME_INPUT = "input_ej4.blast";
 
 	public static void main(String[] args) {
 		LOGGER.info("---> Ejercicio 4 <---");

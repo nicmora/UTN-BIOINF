@@ -24,9 +24,9 @@ public class Ejercicio2a {
 	private static final Logger LOGGER = LoggerFactory.getLogger(Ejercicio2a.class);
 
 	private static final String PATH_INPUT = "data/input/";
-	private static final String NAME_INPUT = "input_ej2a.txt";
+	private static final String NAME_INPUT = "input_ej2a.fasta";
 	private static final String PATH_OUTPUT = "data/output/";
-	private static final String NAME_OUTPUT = "output_ej2a.txt";
+	private static final String NAME_OUTPUT = "output_ej2a.blast";
 
 	public static void main(String[] args) {
 		LOGGER.info("########## Ejercicio 2a ##########");

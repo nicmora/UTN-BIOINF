@@ -23,7 +23,7 @@ public class Ejercicio1 {
 	private static final String PATH_INPUT = "data/input/";
 	private static final String NAME_INPUT = "input_ej1.gb";
 	private static final String PATH_OUTPUT = "data/output/";
-	private static final String NAME_OUTPUT = "output_ej1.txt";
+	private static final String NAME_OUTPUT = "output_ej1.fasta";
 
 	public static void main(String[] args) {
 		LOGGER.info("########## Ejercicio 1 ##########");
