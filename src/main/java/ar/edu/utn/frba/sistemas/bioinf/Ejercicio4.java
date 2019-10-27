@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 import org.apache.commons.lang.StringUtils;
+import org.biojava.nbio.core.sequence.loader.StringProxySequenceReader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -42,17 +43,20 @@ public class Ejercicio4 {
 			blastOutput = fileContents.toString();
 				
 			scanner.close();
+			
 
 			// Separamos cada hit en un String diferente
-			String[] hits = blastOutput.split(">");
+			String[] hits = blastOutput.split("ALIGNMENTS");
+			hits = hits[1].split(">");
 
 			String inputSequenceSeparator = StringUtils.repeat(lineSeparator, 4);
 
 			// Eliminamos lineas en blanco redundantes
 			for (int i = 0; i < hits.length; i++) {
-				if (hits[i].indexOf(inputSequenceSeparator) >= 0) {
-					hits[i] = hits[i].substring(0, hits[i].indexOf(inputSequenceSeparator));
-				}
+//				if (hits[i].indexOf(inputSequenceSeparator) >= 0) {
+//					hits[i] = hits[i].substring(0, hits[i].indexOf(inputSequenceSeparator));
+//				}
+				hits[i] = hits[i].replace("\n", "");
 			}
 
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -65,7 +69,8 @@ public class Ejercicio4 {
 				pattern = br.readLine();
 				for (int i = 1; i < hits.length; i++) {
 					if (StringUtils.containsIgnoreCase(hits[i], pattern)) {
-						LOGGER.info(hits[i]);
+						LOGGER.info("Accession = " + hits[i].substring(0, hits[i].indexOf(" ")));
+						LOGGER.info("Hits = " + StringUtils.countMatches(hits[i], pattern));
 						huboResultados = true;
 					}
 				}
