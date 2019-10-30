@@ -42,7 +42,8 @@ public class Ejercicio5 {
 		LOGGER.info("Creando los archivos orf temporales...");
 		
 		String getorfCommand = "getorf -sequence " + inputPath.toString()
-				+ " -table 0 -minsize 30 -maxsize 1000000 -find 0 -methionine -nocircular -reverse -flanking 100 -ossingle2 -osdirectory2 "
+//				+ " -table 0 -minsize 300 -maxsize 1000000 -find 0 -methionine -nocircular -reverse -flanking 100 -ossingle2 -osdirectory2 "
+				+ " -minsize 300 -find 1 -ossingle2 -osdirectory2 "
 				+ tempOutputGetorfPath.toString() + " -auto";
 
 		executeCommand(getorfCommand);
