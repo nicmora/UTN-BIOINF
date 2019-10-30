@@ -63,7 +63,9 @@ public class Ejercicio5 {
 			tempOutputMotifPath = Paths.get(PATH_TEMP_PATMATMOTIFS + filename);
 
 			patmatmotifsCommand = "patmatmotifs -sequence " + tempEachSequencePath.toString() + " -outfile "
-					+ tempOutputMotifPath.toString() + ".patmatmotifs -nofull -prune -rformat dbmotif -auto";
+					+ tempOutputMotifPath.toString() 
+//					+ ".patmatmotifs -nofull -prune -rformat dbmotif -auto";
+					+ ".patmatmotifs -full -rformat dbmotif -auto";
 			executeCommand(patmatmotifsCommand);
 		}
 
