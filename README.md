@@ -25,4 +25,29 @@ https://www.ncbi.nlm.nih.gov/gene/3064
 
 -> Ejercicio 1 <-
 
-> Para ejecutar el script, se debe acceder al directorio "release" desde la línea de comandos, escribir "java -jar Ejercicio1.jar" y presionar Enter. Para que funcione, debe estar instalada correctamente la máquina virtual de Java, versión 1.7, y debe estar presente el archivo input "Ex1_input.gb" en el directorio "release/data/input".
+>Acceder al directorio "release" 
+>Ejecutar el comando "java -jar Ejercicio1.jar" y presionar Enter. 
+
+Para que funcione, debe estar instalada correctamente la máquina virtual de Java, versión 1.8, y debe estar presente el archivo "input_ej1.gb" en el directorio "release/data/input".
+
+-> Ejercicio 2a <-
+
+>Acceder al directorio "release" 
+>Ejecutar el comando "java -jar Ejercicio2a.jar" y presionar Enter. 
+
+Para que funcione, debe estar instalada correctamente la máquina virtual de Java, versión 1.8, y debe estar presente el archivo "output_ej1.fasta" en el directorio "release/data/output". 
+Este script ejecuta en forma remota un alineamiento, por lo que para obtener los resultados esperados es necesario también contar con acceso a Internet.
+
+-> Ejercicio 4 <-
+
+>Acceder al directorio "release" 
+>Ejecutar el comando "java -jar Ejercicio4.jar" y presionar Enter. 
+
+Para que funcione, debe estar instalada correctamente la máquina virtual de Java, versión 1.8, y debe estar presente el archivo "output_ej2a.blast" en el directorio "release/data/output".
+
+-> Ejercicio 5 <-
+
+>Acceder al directorio "release" 
+>Ejecutar el comando "java -jar Ejercicio5.jar" y presionar Enter. 
+
+Para que funcione, debe estar instalada correctamente la máquina virtual de Java, versión 1.8 y también EMBOSS. Además se necesitarán los archivos prosite.dat y prosite.doc, y ejercutarlos con el comando "prosextract". Debe estar presente el archivo "input_ej5.fasta" en el directorio "release/data/input".
